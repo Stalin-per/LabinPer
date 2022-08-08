@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   
-name: deploy vl-lab
+name: deploy vl-lab (new)
 jobs:
   deploy:
     environment: lab
