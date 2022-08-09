@@ -2,14 +2,23 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "nicName": {
-            "value": "nic-vl-lab-001"
+        "vnetName": {
+            "value": "vnet-lab-euwe-001"
         },
-        "location": {
-            "value": "easteurope"
+        "nsgName": {
+            "value": "nsg-lab"
         },
-        "vmName": {
-            "value": "lab-vm-001"
+        "nsgNameAgw": {
+            "value": "nsg-agw-lab"
+        },
+        "subnetNameaks": {
+            "value": "snet-lab-euwe-001"
+        },
+        "subnetNameagw": {
+            "value": "snet-agw-lab-euwe-002"
+        },
+        "appgwRouteTableName":{
+            "value": "route-lab-001"
         }
     }
 }
