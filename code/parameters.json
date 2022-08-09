@@ -2,8 +2,14 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "vnetName": {
-            "value": "vnet-vl-lab-001"
+        "nicName": {
+            "value": "nic-vl-lab-001"
+        },
+        "location": {
+            "value": "easteurope"
+        },
+        "vmName": {
+            "value": "lab-vm-001"
         }
     }
 }
